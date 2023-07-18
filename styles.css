@@ -5,6 +5,8 @@
 }
 
 body {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,14 +243,14 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 1750px;
+    height: 1385px;
 }
 
 .vagas {
     display: flex;
     justify-content: center;
     width: 85%;
-    height: 100%;
+    height: 1300px;
     margin-top: 7.5%;
     flex-direction: column;
     align-items: center;
@@ -330,7 +332,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 5% 0;
+    padding: 7% 0;
 }
 
 .open_vacancies {
@@ -392,4 +394,76 @@ main {
     flex-direction: column;
     margin-bottom: 4%;
     justify-content: space-evenly;
+}
+
+.depoimentos {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 350px;
+}
+
+.content_depoimentos {
+    width: 85%;
+    height: 80%;
+    display: flex;
+    background-color: #C3191908;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quote {
+    width: 90%;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote span {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #8E2424;
+    margin-bottom: 2%;
+}
+
+.quote p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #101828;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil img {
+    width: 56px;
+    height: 56px;
+    border-radius: 200px
+}
+
+.perfil span {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #101828;
+    margin-top: 2%;
+}
+
+.perfil p {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #667085;
+
 }
